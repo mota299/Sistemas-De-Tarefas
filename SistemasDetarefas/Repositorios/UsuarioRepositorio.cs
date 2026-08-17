@@ -24,8 +24,8 @@ namespace SistemasDetarefas.Repositorios
         }
         public async Task<UsuarioModel> Adicionar(UsuarioModel usuario)
         {
-            _dbContext.Usuarios.Add(usuario);
-            _dbContext.SaveChanges();
+            await _dbContext.Usuarios.AddAsync(usuario);
+            await _dbContext.SaveChangesAsync();
 
             return usuario;
         }
@@ -42,7 +42,7 @@ namespace SistemasDetarefas.Repositorios
             usuarioPorId.Email = usuario.Email;
 
             _dbContext.Usuarios.Update(usuarioPorId);
-            _dbContext.SavedChanges();
+            await _dbContext.SaveChangesAsync();
 
             return usuarioPorId;
         }
@@ -57,7 +57,7 @@ namespace SistemasDetarefas.Repositorios
             }
 
             _dbContext.Usuarios.Remove(usuarioPorId);
-            _dbContext.SaveChanges();
+            await _dbContext.SaveChangesAsync();
 
             return true;
         }

@@ -1,3 +1,8 @@
+using Microsoft.EntityFrameworkCore;
+using SistemasDetarefas.Data;
+using SistemasDetarefas.Repositorios;
+using SistemasDetarefas.Repositorios.Interfaces;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,6 +12,12 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 
+builder.Services.AddEntityFrameworkSqlServer()
+    .AddDbContext<SistemaTarefasDBcontex>(
+     options => options.UseSqlServer(builder.Configuration.GetConnectionString("DataBase"))
+    );
+
+builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
 
 var app = builder.Build();
 

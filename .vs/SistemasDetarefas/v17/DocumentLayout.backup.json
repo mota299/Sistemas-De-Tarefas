@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\2-back-end\\SistemasDetarefas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49CE9378-1ECB-498A-86D2-E514CE49B87C}|SistemasDetarefas\\SistemasDetarefas.csproj|c:\\2-back-end\\sistemasdetarefas\\sistemasdetarefas\\repositorios\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49CE9378-1ECB-498A-86D2-E514CE49B87C}|SistemasDetarefas\\SistemasDetarefas.csproj|solutionrelative:sistemasdetarefas\\repositorios\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49CE9378-1ECB-498A-86D2-E514CE49B87C}|SistemasDetarefas\\SistemasDetarefas.csproj|c:\\2-back-end\\sistemasdetarefas\\sistemasdetarefas\\repositorios\\interfaces\\iusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49CE9378-1ECB-498A-86D2-E514CE49B87C}|SistemasDetarefas\\SistemasDetarefas.csproj|solutionrelative:sistemasdetarefas\\repositorios\\interfaces\\iusuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49CE9378-1ECB-498A-86D2-E514CE49B87C}|SistemasDetarefas\\SistemasDetarefas.csproj|c:\\2-back-end\\sistemasdetarefas\\sistemasdetarefas\\data\\sistematarefasdbcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49CE9378-1ECB-498A-86D2-E514CE49B87C}|SistemasDetarefas\\SistemasDetarefas.csproj|solutionrelative:sistemasdetarefas\\data\\sistematarefasdbcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49CE9378-1ECB-498A-86D2-E514CE49B87C}|SistemasDetarefas\\SistemasDetarefas.csproj|c:\\2-back-end\\sistemasdetarefas\\sistemasdetarefas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CE9378-1ECB-498A-86D2-E514CE49B87C}|SistemasDetarefas\\SistemasDetarefas.csproj|solutionrelative:sistemasdetarefas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SistemaTarefasDBcontex.cs",
-              "DocumentMoniker": "C:\\2-back-end\\SistemasDetarefas\\SistemasDetarefas\\Data\\SistemaTarefasDBcontex.cs",
-              "RelativeDocumentMoniker": "SistemasDetarefas\\Data\\SistemaTarefasDBcontex.cs",
-              "ToolTip": "C:\\2-back-end\\SistemasDetarefas\\SistemasDetarefas\\Data\\SistemaTarefasDBcontex.cs",
-              "RelativeToolTip": "SistemasDetarefas\\Data\\SistemaTarefasDBcontex.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-14T13:35:12.614Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -47,28 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IUsuarioRepositorio.cs",
-              "DocumentMoniker": "C:\\2-back-end\\SistemasDetarefas\\SistemasDetarefas\\Repositorios\\Interfaces\\IUsuarioRepositorio.cs",
-              "RelativeDocumentMoniker": "SistemasDetarefas\\Repositorios\\Interfaces\\IUsuarioRepositorio.cs",
-              "ToolTip": "C:\\2-back-end\\SistemasDetarefas\\SistemasDetarefas\\Repositorios\\Interfaces\\IUsuarioRepositorio.cs",
-              "RelativeToolTip": "SistemasDetarefas\\Repositorios\\Interfaces\\IUsuarioRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-14T14:02:09.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsuarioRepositorio.cs",
-              "DocumentMoniker": "C:\\2-back-end\\SistemasDetarefas\\SistemasDetarefas\\Repositorios\\UsuarioRepositorio.cs",
-              "RelativeDocumentMoniker": "SistemasDetarefas\\Repositorios\\UsuarioRepositorio.cs",
-              "ToolTip": "C:\\2-back-end\\SistemasDetarefas\\SistemasDetarefas\\Repositorios\\UsuarioRepositorio.cs",
-              "RelativeToolTip": "SistemasDetarefas\\Repositorios\\UsuarioRepositorio.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAqwAcAAAAyAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\2-back-end\\SistemasDetarefas\\SistemasDetarefas\\Program.cs",
+              "RelativeDocumentMoniker": "SistemasDetarefas\\Program.cs",
+              "ToolTip": "C:\\2-back-end\\SistemasDetarefas\\SistemasDetarefas\\Program.cs",
+              "RelativeToolTip": "SistemasDetarefas\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-14T13:32:28.836Z",
+              "WhenOpened": "2026-08-17T19:19:35.682Z",
               "EditorCaption": ""
             }
           ]
